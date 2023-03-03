@@ -196,10 +196,22 @@ footer p {
 
 .bloqueUno--presentacion {
     margin-left: 6rem;
+    margin-bottom: 6rem;
 }
 
 .bloqueUno--presentacion span {
     color: var(--secundario);
+}
+
+.bloqueDos--presentacion {
+    position: relative;
+}
+
+.bloqueDos--presentacion img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 88%;
 }
 
 
@@ -352,6 +364,8 @@ footer p {
 
 .info--contacto {
     margin-left: 20rem;
+    position: relative;
+    z-index: 2;
 }
 
 .info--contacto h2 {
@@ -366,4 +380,17 @@ span {
 .botones--contacto img {
     width: 15%;
     padding: 0 1.1rem;
+}
+
+.seccion_img--contacto {
+    position: relative;
+    text-align: end;
+    z-index: 1;
+}
+
+.seccion_img--contacto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%;
 }
