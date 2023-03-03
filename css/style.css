@@ -147,6 +147,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    z-index: 3;
 }
 
 footer p {
@@ -297,4 +298,72 @@ footer p {
     width: 35%;
     display: inline-block;
     margin-top: -46rem;
+}
+
+
+/* style Recursos Aliados */
+
+.seccionAliados {
+    position: relative;
+    text-align: right;
+    z-index: 1;
+}
+
+.contenido--aliados {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: -45rem;
+}
+
+.seccionAliados img {
+    width: 50%;
+    display: inline-block;
+}
+
+.txtAliados p {
+    margin: auto;
+    margin-left: 40rem;
+    text-align: justify;
+    padding: 0 0 5rem 0;
+}
+
+.btnProximanete {
+    width: 35%;
+    margin: auto;
+    margin-left: 40rem;
+    padding-bottom: 22rem;
+}
+
+
+/* style Logros */
+
+.imgComplete--logros {
+    width: 100%;
+}
+
+
+/* style Contacto */
+
+.contenedor--contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info--contacto {
+    margin-left: 20rem;
+}
+
+.info--contacto h2 {
+    font-size: 5rem;
+}
+
+.info--contacto h2,
+span {
+    color: var(--secundario);
+}
+
+.botones--contacto img {
+    width: 15%;
+    padding: 0 1.1rem;
 }
